@@ -1,0 +1,554 @@
+\documentclass[10pt]{extarticle}
+%\documentclass[]{file}
+%\usepackage[a4paper, total={8.1in, 11in}]{geometry}
+\usepackage[a4paper, total={8.1in, 11.4in}]{geometry} 
+\usepackage{romannum}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{fontawesome}
+\usepackage{setspace}
+% \usepackage[bottom=0.5in]{geometry}
+\usepackage{tfrupee}
+\newcommand\myshade{85}
+\colorlet{mylinkcolor}{violet}
+\colorlet{myurlcolor}{black}
+\usepackage[colorlinks=true,linkcolor=grey,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=myurlcolor!\myshade!black]{hyperref}
+\usepackage{blindtext}
+\usepackage{hyperref}
+\newlist{tabitemize}{itemize}{1}
+\setlist[tabitemize]{nosep,
+                  topsep= 0pt,
+                  partopsep=0pt,
+                  leftmargin= *,
+                  label=\textbullet,
+                  before=\vspace{0.3\baselineskip},
+                  after=\vspace{-\baselineskip}
+                  }
+\renewcommand\tabularxcolumn[1]{m{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\setlist[itemize]{noitemsep, topsep=0pt}
+\addtolength{\parskip}{-1.5mm}
+ \pagestyle{empty}
+\tcbset{
+    frame code={}
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!50,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=0mm,
+    boxsep=3pt,
+    arc=0pt,outer arc=0pt,
+    }
+    \usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\begin{document}
+\fontsize{9.51pt}{10.5pt}\selectfont{ 
+\begin{flushleft}
+\noindent {\huge\textbf{Swayam Gupta}}\hfill {\faPhone \hspace{0.2mm} +91-8957370095} | \href{mailto:swayamg20@iitk.ac.in}{\faEnvelope \hspace{1mm}swayamg20@iitk.ac.in} | \href{
+ https://www.linkedin.com/in/swayamgupta20/}{\faLinkedin \hspace{1mm}Swayam-Gupta} | \href{
+ https://www.linkedin.com/in/swayamgupta20/}{\faGithub \hspace{1mm}swayamg20}
+\vspace{-19pt}
+
+{\large \textbf{\begin{tcolorbox}[center, width=20.7cm]\textsc{Academic Qualifications}\end{tcolorbox}}}
+\vspace{-4.3mm}
+\renewcommand{\arraystretch}{1.2}
+\begin{center}
+\begin{tabularx}{\textwidth}{|p{4.0cm}|p{5.5cm}|p{7.2cm}| >{\centering\arraybackslash}X |}
+\hline
+\centering{\textbf{Year}} & \centering{\textbf{Degree}} & \centering{\textbf{Institute}} & {\textbf{CPI/\%}}
+\\
+\hline
+\centering{2020} - {2024} & \centering{B.Tech.- MSE} & \centering{Indian Institute of Technology Kanpur} & 6.7/10\\
+\hline
+\centering{2019} & \centering{Grade XII (CBSE)} & \centering{Pt.DDUSDV, Kanpur} & {89}$\%$\\
+\hline
+\centering{2017} & \centering{Grade X (CBSE)} & \centering{Pt.DDUSDV, Kanpur} & {9.4/10}\\
+\hline
+\end{tabularx}
+\end{center}
+\vspace{-3pt}
+{\large \textbf{\begin{tcolorbox}[center, width=20.7cm]\textsc{Scholastic Achievements}\end{tcolorbox}}}
+\vspace{-10.7pt}
+\begin{itemize}
+\item Bagged \textbf{Silver Medal} among \textbf{23 IITs} for ISRO's X-Ray Burst Web Automation Challange in \textbf{Inter-IIT Tech Meet 10.0}
+\vspace{0.3mm}\hfill\textcolor{black!70}{\small \textit{2022}}
+\item Granted acceptance for active participation in the esteemed \textbf{Code in Place 2021} initiative hosted by \textbf{Stanford University} \hfill {\small \textit{2021}}
+\item Ranked \textbf{2592nd} out of a competitive pool of 100,000 participants in the \textbf{Google Kick Start Round C} computational challenge \hfill\textcolor{black!70}{\small \textit{2021}}
+\item Ranked \textbf{5401st} out of a competitive pool of 100,000 participants in the \textbf{Google Hash Code} computational challenge \hfill\textcolor{black!70}{\small \textit{2021}}
+\item Participated in \textbf{Hacktoberfest '22},  merging 4 pull requests for renowned Open Source Organization \textbf{Casbin's codebase} \hfill\textcolor{black!70}{\small \textit{2022}}
+\end{itemize}
+\vspace{1pt}
+\smallskip{}
+{\large \textbf{\begin{tcolorbox}[center, width=20.7cm]\textsc{Professional Experience}\end{tcolorbox}}}
+\vspace{-18pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Fischer Jordan, New York | Software Development Engineering Internship}  \hfill\hfill\textcolor{black!80}{\small \textit{Jun'23 - Ongoing}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{center}
+\begin{tabularx}{\textwidth}{ p{1.7cm} | X }
+\centering\multirow{1}{*}{\textbf{Objective}} & 
+\begin{tabitemize}
+    \item To Create and sustain a company’s client management portal as a Knowledge Management System (KMS)
+\end{tabitemize}\\
+% \vspace{-1.0mm}
+\hline
+\centering\multirow{1}{*}{\textbf{Approach}} & 
+\begin{tabitemize}
+    \item Enhanced KMS engagement through \textbf{React.js gamification}, \textbf{Chakra UI utilizatio}n, and seamless \textbf{RESTful API integration}
+    \item  Managed KMS externalization, \textbf{employing tree shaking}, \textbf{bundling}, and advanced optimizations to achieve global modularity
+    \item Enhanced performance by optimizing \textbf{Redux API} calls via asynchronous actions, \textbf{memoization}, code splitting techniques
+    \item Enhanced UX through \textbf{real-time WebSocket likes}, intricate \textbf{spreadsheet data flow}, and \textbf{live database} synchronization
+    \item Collaborated in \textbf{cross-functional teams}, employing \textbf{Git} and \textbf{GitHub} for version control, and contributed to code reviews
+    \item Performed comprehensive testing, including unit and \textbf{end-to-end tests}, for bug identification and \textbf{feature implementation}
+\end{tabitemize}\\
+
+\hline
+\centering\multirow{1}{*}{\textbf{Impact}}& 
+\begin{tabitemize}
+\item  Boosted KMS engagement by\textbf{ 50\% }through gamification, RESTful API integration, and performance optimization strategies
+    \item  Led KMS development, fueling a remarkable \textbf{60\% userbase surge}, catering to major firms, including \textbf{Eagle Stone}
+\end{tabitemize}
+\end{tabularx}
+\end{center}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Llama Mindfulness Solution, Bangalore | Software Engineering Internship}  \hfill\hfill\textcolor{black!80}{\small \textit{Apr'23 - Jun'23}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{center}
+\begin{tabularx}{\textwidth}{ p{1.7cm} | X }
+\centering\multirow{1}{*}{\textbf{Objective}} & 
+\begin{tabitemize}
+    \item  Engineer a custom Slack app, architect a robust Moodle LMS, and maintain a dynamic WordPress website
+   
+\end{tabitemize}\\
+\hline
+\centering\multirow{1}{*}{\textbf{Approach}} & 
+\begin{tabitemize}
+    \item Developed a robust Node.js backend, skillfully integrating Slack Bolt API for advanced database and analytics 
+    \item Proficiently integrated external systems through RESTful APIs, enabling seamless data exchange and automation
+    \item Expertly configured Moodle plugins, optimizing LMS and database for efficient performance and data handling
+    \item  Enhanced engagement through effective JavaScript CTA, improving user experience and retention
+    \item Led DOM manipulation, creating an advanced admin portal for seamless Moodle API-driven database access
+\end{tabitemize}\\
+
+\hline
+\centering\multirow{1}{*}{\textbf{Impact}}& 
+\begin{tabitemize}
+\item \textbf{Client-Preferred LMS Success:} Developed LMS garnered client favor, leading to a remarkable 30\% surge in user adoption
+    \item \textbf{Efficient Portal:} Implemented admin portal, offering staff a 40\% boost in the data retrieval speed and more clear analysis
+
+
+
+
+
+\end{tabitemize}\\
+\end{tabularx}
+\end{center}
+
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Vaticinari Solutions, Bangalore | Cyber Security Internship | Part Time}  \hfill\hfill\textcolor{black!80}{\small \textit{Apr'22 - Ongoing}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{center}
+\begin{tabularx}{\textwidth}{ p{1.7cm} | X }
+\centering\multirow{1}{*}{\textbf{Objective}} & 
+\begin{tabitemize}
+    \item Leverage in-depth expertise in Neo4j, \textbf{Bloodhound}, and \textbf{CVE data analysis} to enhance cybersecurity threat mitigation
+    \item Contribute by creating essential threat diagrams and a minimum viable product (MVP) to accelerate startup success
+\end{tabitemize}\\
+\hline
+\centering\multirow{1}{*}{\textbf{Approach}} & 
+\begin{tabitemize}
+    \item Proficiency in \textbf{Neo4j}, applying advanced graph database skills to enhance \textbf{cybersecurity threat analysis}  
+    \item Utilized Bloodhound for meticulous \textbf{Active Directory} permission analysis and graph creation, aiding in threat assessment
+    \item Generated and meticulously analyzed \textbf{Common Vulnerabilities and Exposures (CVE) data}, crucial for t\textbf{hreat identification}
+    \item Developed \textbf{comprehensive threat diagrams} to solve problems based on threats, facilitating \textbf{data-driven decision-making}
+\end{tabitemize}\\
+
+\hline
+\centering\multirow{1}{*}{\textbf{Impact}}& 
+\begin{tabitemize}
+\item Expertise in \textbf{Neo4j} was used, leading to a significant increase of \textbf{30\% in user acceptance} for advanced threat analysis
+    \item Played a pivotal role in \textbf{startup acceleration} by crafting an \textbf{MVP with critical threat diagrams} and data-driven insights
+\end{tabitemize}\\
+\end{tabularx}
+\end{center}
+
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{C3i Hub, IIT Kanpur | Undergraduate Fellow}  \hfill\hfill\textcolor{black!80}{\small \textit{Jul'21 - July'22}}
+\end{tcolorbox}z
+\vspace{-10pt}
+\begin{center}
+\begin{tabularx}{\textwidth}{ p{1.7cm} | X }
+\centering\multirow{1}{*}{\textbf{Objective}} & 
+\begin{tabitemize}
+    \item Utilize developemnt skills to drive innovation, integrating CMS, APIs, and enhancing user experiences in dynamic projects
+    
+\end{tabitemize}\\
+\hline
+\centering\multirow{1}{*}{\textbf{Approach}} & 
+\begin{tabitemize}
+    \item Integrated project's CMS with Drupal 9 using PHP Composer, effectively leveraging LAMP Stack for local server setup
+    \item Developed a local Threatmap frontend with React JS and Express.JS, utilizing the L-IQ API for server location tracking.
+    \item Spearheaded fullstack fabrication in C3i Hub projects, addressing homepage bugs through CSS/HTML enhancements.
+\end{tabitemize}\\
+
+\hline
+\centering\multirow{1}{*}{\textbf{Impact}}& 
+\begin{tabitemize}
+\item Enhanced C3i Hub projects, leading frontend/backend fabrication, fixing homepage bugs with 20\% efficiency boost
+\end{tabitemize}\\
+\end{tabularx}
+\end{center}
+
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Artpark Technologies | Research Internship}  \hfill\hfill\textcolor{black!80}{\small \textit{Nov'21 - Feb'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{center}
+\begin{tabularx}{\textwidth}{ p{1.7cm} | X }
+\centering\multirow{1}{*}{\textbf{Objective}} & 
+\begin{tabitemize}
+    \item To excel in an operational role, contributing to team efficiency and enhancing the overall program management
+   
+\end{tabitemize}\\
+\hline
+\centering\multirow{1}{*}{\textbf{Approach}} & 
+\begin{tabitemize}
+    \item Efficiently managed daily classroom operations for the Eklavya program in MS Teams, ensuring smooth program delivery  
+    \item Thoroughly compiled and analyzed student feedback, significantly enhancing the class performance and program quality
+    \item Streamlined critical administrative tasks, such as comprehensive student database creation and a certificate generation
+    \item Coordinated invaluable one-on-one mentoring sessions, facilitated the student-mentor interactions and robust support
+\end{tabitemize}\\
+
+\hline
+\centering\multirow{1}{*}{\textbf{Impact}}& 
+\begin{tabitemize}
+\item Enhanced program efficiency, resulting in a 20\% reduction in administrative workload through streamlined processes
+    \item Improved student satisfaction, as evidenced by a 15\% increase in positive feedback regarding program organization
+\end{tabitemize}\\
+\end{tabularx}
+\end{center}
+{\large \textbf{\begin{tcolorbox}[center, width=20.7cm]\textsc{Key Projects}\end{tcolorbox}}}
+\vspace{-18pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{ISRO Web Based X-RAY Burst Automation | Inter IIT Tech Meet 10.0}  \hfill\hfill\textcolor{black!80}{\small \href{https://docs.google.com/presentation/d/10pvkgxBG-ETi1jD3QRtYjZ6shZK6lnJaGWVreLN3-80/edit?usp=sharing}{\faBook} \textit{ Feb'22 - Apr'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Developed a web-based automated system for identifying solar bursts, utilising the ReactJS framework with data segregation features
+    \item Integrated dynamic and interactive features using ReactJS libraries, including ChartJS, for enhanced data visualization and analysis
+    \item Organised curve data by storing specific details in react hooks in JSON to ensure efficient management and easy API calls to the server
+    \item Seamlessly Linked flask based backend RESTful APIs with using Axios, offering an interactive interface for data display and exploration
+    \item Led end-to-end product documentation and orchestrated the development of a user journey and research, ensuring project success
+    \item Won a Silver Medal in the mid-prep event, with IIT Kanpur’s contingent securing the 2nd position in the overall GC
+\end{itemize}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{TA Allotment System | Supervised By- Proff. Shikhar Krishan Jha}  \hfill\hfill\textcolor{black!80}{\small \textit{Jan'22 - May'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Developed a Teaching Assistant allotment portal, utilizing Node.js, Express, and MongoDB for backend operations
+    \item Fortified security with JWT-based authentication, meticulous authorization, and email-based login for enrolled students
+    \item Empowered professors to add courses via secured API endpoints, ensuring stringent data integrity and access control
+    \item Utilized Nodemailer, bcrypt, and JWT for secure email, password hashing, and authentication, ensuring robust data protection
+    \item Conducted extensive research and crafted a user-centric UI, optimizing the user experience for enhanced usability and engagement
+\end{itemize}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Journal Scrapper for Data Mining | Supervised By- Proff. Shikhar Krishan Jha}  \hfill\hfill\textcolor{black!80}{\small \textit{Jul'22 - Dec'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Automated system for fetching .ris/.bib files, extracting author details programmatically, and optimizing data retrieval processes
+    \item TImplemented a dynamic anti-bot system, employing rate limiting and token rotation for scraping resilience
+    \item Explored alternative data aggregators like Semantic Scholar and Microsoft Academic Graph for more reliable data sources
+\item Proficiently conducted NER (Named Entity Recognition) to extract author entities and DOI URLs from scholarly articles
+    \item Seamless connectivity between the Flask app and frontend was established through HTTP or other REST-based API calls via backend
+    \item Harnessed Scopus Cited By API to implement the citation counts of input journals, enhancing our tool's functionality and data accuracy
+\end{itemize}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Machine Learning Project | Course Project CS771}  \hfill\hfill\textcolor{black!80}{\small \textit{Jan'22 - Apr'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Learnt and developed various linear models like Linear SVC \& Logistic Regression to crack a simple and advanced XORRO PUF
+\item Cracked advanced XORRO PUF with 99\% accuracy using a simple linear model and tuning regularization strength \& learning rate
+\item Learnt various non-linear models like Decision Trees and implemented them to play a hybrid game of Hangman and Wordle
+\item Achieved 100\% accuracy with average query rate of 3.99 applying maximum entropy gain as the splitting criterion of decision tree
+\item Implemented various linear and non-linear models for calibrating an electrochemical air quality sensor using Machine Learning
+\item Identified Elastic Net as the best linear model and Extra tree regressor as the best non-linear model for the calibration of the sensor
+\item Obtained mean absolute error of 1.67 for 03 and 1.01 for NO2 by hyperparameter tuning using cross validation \& feature engineering
+\item Obtained MAE of 1.67 and 1.01 for 03 and NO2 identifying Elastic Net and Extra tree regressor as best linear and non-linear models
+\end{itemize}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Conway's Game of Life | Code in Place'21 | Stanford University}  \hfill\hfill\textcolor{black!80}{\small \href{https://codeinplace-2021.netlify.app/2021/showcase/312}{\faBook} \textit{Apr'21 - Jun'21}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Completed Stanford University's CS106a, a foundational programming course. Applied Karel for algorithmic problem-solving, enhancing problem-solving skills
+    \item Initiated work on Conway's Game of Life Algorithm, exploring its potential for simulating complex population growth scenarios
+    \item Developed a Python simulation of the game using pygame and numpy libraries. Created random data points to model dynamic population growth demonstrating proficiency in array manipulation and GUI development
+    \item Engineered a system where each cell's output represented a random population size, demonstrating versatility in algorithmic modeling and simulation utilizing terms like "cellular automaton," "state transition," and "neighborhood configuration
+    \item Gained proficiency in image processing, encompassing image scanning, interpretation, and manipulation techniques
+\end{itemize}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{SnT Summer Project | Game Dev Society}  \hfill\hfill\textcolor{black!80}{\small \textit{Jun'21 - Sept'21}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Collaboratively developed a 3D simulation game during a semester-long project, employing a diverse toolset: Blender for 3D design, Unity as the environment, and VS Code for C\# making the charecter depth functions to add physical aspects
+    \item Utilized C\# to script player movement and combat mechanics, showcasing proficiency in game development and coding
+    \item Personally contributed to character animation using Blender, enhancing the immersive nature of the gameplay environment
+    \item Committed to delivering a compelling 3D gaming experience, combining technical and creative skills in a dynamic team setting
+
+\end{itemize}
+\smallskip{}
+\vspace{-19pt}
+
+
+{\large \textbf{\begin{tcolorbox}[center, width=20.7cm]\textsc{Self Inspired Projects}\end{tcolorbox}}}
+\vspace{-18pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Security Based Honeypot System}  \hfill\hfill\textcolor{black!80}{\small \href{https://github.com/swayamg20/honeylambda}{\faGithub} \textit{May'22 - July'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Employed HoneyLambda for serverless deployment using Python, responding to malicious link activity, leveraging AWS storage
+    \item Integrated Slack API to relay warning notifications, enhancing threat detection and incident response capabilities
+    \item Utilized Cymon API v2 to generate comprehensive threat intelligence summaries, strengthening security analytics and insights
+    \item Explored the creation of diverse honeytokens, focusing on email-triggering variations for cybersecurity purposes.
+    \item To formulate a business strategy to maximize profits by \textbf{strengthening relations} with regional and international clients To perform the
+\end{itemize}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Content Management System (MERN Stack)}  \hfill\hfill\textcolor{black!80}{\small \href{https://github.com/swayamg20/Content-Manangement-System}{\faGithub} \textit{Nov'22 - Dec'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Built MongoDB middleware CMS for seamless frontend-backend integration, enhancing versatility and performance
+    \item Designed intricate, adaptable schemas for versatile data management across diverse projects, ensuring scalability and efficiency
+    \item Engineered secure MERN stack APIs for reliable and encrypted data transmission, ensuring seamless data manipulation
+    \item Enabled seamless API connectivity across various projects, elevating scalability and functionality for diverse initiatives
+    \item Engineered middleware to bridge frontend-backend, bolstering diverse application performance, connectivity, and robustness
+\end{itemize}
+\vspace{-19pt}
+
+{\large \textbf{\begin{tcolorbox}[center, width=20.7cm]\textsc{Positions of Responsibility}\end{tcolorbox}}}
+\vspace{-18pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Head, Web \& App, Techkriti'23 | 29\textsuperscript{th} Edition: Annual Technical and Entrepreneurial Festival of IIT Kanpur} \hfill\hfill\textcolor{black!70}{\small \textit{June'22 - March'23}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{center}
+\begin{tabularx}{\textwidth}{ p{1.7cm} | X }
+\centering\multirow{1}{*}{\textbf{Leadership}} & 
+\begin{tabitemize}
+    \item Spearheaded a \textbf{4-tier} team of \textbf{80}+ organizers, \textbf{500}+ volunteers to conduct 29th edition with a \textbf{30000}+ footfall
+    \item Led a diverse 400+ member cross-functional team, showcasing leadership in marketing, finance, design, and other domains 
+    
+\end{tabitemize}\\
+\hline
+\centering\multirow{1}{*}{\textbf{Initiatives}} & 
+\begin{tabitemize}
+    \item Revamped server, implemented 10+ portals, linked via a centralized backend, optimizing scalability, performance, and UX
+    \item Spearheaded a backend server for 10+ Techkriti 23 festival websites, optimizing efficiency and resource management
+
+    \item Collaborated with design team to create user-friendly designs for Techkriti’s websites, receiving 30k+ unique clicks
+      \item Managed vendor collaborations, contract negotiations, and quality control for timely production of materials
+      \item Led a 400+ member team across diverse domains, orchestrating tasks in marketing, finance, design, and more. Analyzed and optimized a large React project's bundle size, configuring Webpack for asset compression
+      \item Collaborated with developers to plan and implement project features, including robust user authentication and security
+      \item  Reposioned E-Conclave to conduct events focused on technopreneurs leveraging it for INR 9 Lacs of sponsorship
+      \item Conceptualized digital markeng (growing at 30\% YoY) focused on chat-bot, app, and website-based targeng
+\end{tabitemize}\\
+\hline
+\centering\multirow{1}{*}{\textbf{Impact}} &
+\begin{tabitemize}
+\item Effectively managing a monthly traffic of 350,000 views and seamlessly handling 29,500 views in a single
+day in 3 months
+    \item Maintained database of 14,500+ active users across the nation. Got 400,000+ view on the main website in over 3 months
+    \item Achieved 30\% YOY growth by the formulated strategies to enhance digital presence for 10+ corporates
+    \item  Garnered an additional reach of 1 million through four revamped social media strategies focused on the youth
+    \item  Initiated conduction of social campaigns BLISS and HOPE on PAN India level in collaboration with various NGOs
+
+\end{tabitemize}\\
+\end{tabularx}
+\end{center} 
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Web Secretary, Hall Executive Committee | Hall of Residence 3}  \hfill\hfill\textcolor{black!80}{\small \textit{Jun'22 - Apr'23}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Developed automation portal using MEAN stack, enhancing operations and user experience through seamless technology integration
+    \item Organized and managed various of hall activities, fostering a vibrant community and ensuring a seamless living experience for residents
+    \item Implemented Gmail server for mass email distribution to 1000+ students with automated mailing list for efficient communication
+\end{itemize}
+% \vspace{-19pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Secretary, Web Division | Science and Technology Council IIT K}  \hfill\hfill\textcolor{black!80}{\small \textit{Jun'21 - May'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Worked on life at IITK full stack project to serve campus community a full fledged all in one services
+    \item Implemented OAuth using firebase backend to provide encrypted, secure and easy authentication
+\end{itemize}
+% \vspace{-19pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Academic Mentor ESC101 | Counselling Service}  \hfill\hfill\textcolor{black!80}{\small \textit{Sep'21 - July'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Guided 150+ students through ESC101. Took sessions and individual mentored students to clear their doubts and excel in the exam
+\end{itemize}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Student Guide | Counselling Service}  \hfill\hfill\textcolor{black!80}{\small \textit{Sep'21 - July'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    \item Facilitated the seamless transition of six freshman students into campus life by serving as a dedicated Student Guide and mentor
+\end{itemize}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Design Secretary | Games and Sports Council | IIT Kanpur}  \hfill\hfill\textcolor{black!80}{\small \textit{Apr'21 - Apr'22}}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{itemize}
+\vspace{2.0mm}
+    % \item Guided 150+ students through ESC101. Took sessions and individual mentored students to clear their doubts and excel in the exam
+    \item Designed 40+ multiple posters, brouchures, templates, booklets for various online events and workshops arranged by GnS council
+    \item Arranged various council activities for campus community like cycling trips, adventure sports, online Esports events, chess events 
+    % \item Managed to get various sponsorship for events from firms like dream 11, chess adda.
+\end{itemize}
+% \vspace{-14pt}
+
+
+
+% \vspace{-16pt}
+
+% \begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+% \textbf{Co-ordinator, Hospitality and Transport, Antaragni'21  | 56\textsuperscript{th} Edition: Annual Cultural Festival of IIT Kanpur} \hfill\hfill\textcolor{black!70}{\small \textit{July'21 - April'22}}
+% \end{tcolorbox}
+% \vspace{-12pt}
+% %\vspace{3pt}
+% \begin{center}
+% \begin{tabularx}{\textwidth}{ p{1.7cm} | X }
+% \centering\multirow{1}{*}{\textbf{Leadership}} & 
+% \begin{tabitemize}
+%     \item  Spearheaded a \textbf{3-tier team} of 35+ secretaries and 80+ volunteers to ensure smooth conduction of the festival
+%     \item Responsible for managing \textbf{6K+ registrations} across 50+ events from \textbf{500+ colleges}; an \textbf{YoY increase of 35\%} in registrations
+    
+  
+% \end{tabitemize}\\
+% \hline
+% \centering\multirow{1}{*}{\textbf{Initiatives}} & 
+% \begin{tabitemize}
+%     \item  Revamped Influencer Program worth \textbf{INR 1 million} with \textbf{1000+ Influencers, 20+ Celebrities, and 25+ Corporates }onboard
+   
+%     \item Formulated new incentives for CA program worth \textbf{INR 0.5 Million} and executed a plan to increase CA registrations by \textbf{6X}
+%      \item Organised \textbf{5 offline road trips} in cities across India each having \textbf{9 competitions}  gaining a collective reach of \textbf{40K+ eyeballs}
+   
+% \end{tabitemize}\\
+% \hline
+% \centering\multirow{1}{*}{\textbf{Impact}} &
+% \begin{tabitemize}
+   
+%     \item Executed barter deals worth \textbf{3 Million} with \textbf{15+ national} \& \textbf{50+ regional media}, newspaper, PR \& distribution companies
+%    \item Reduced \textbf{400+ man-hours} impacting over \textbf{5K+ people} by automation of influencer task tracking \& \textbf{certificate distribution}
+    
+% \end{tabitemize}\\
+% \end{tabularx}
+% \end{center}
+
+\smallskip{}
+\vspace{-19pt}
+
+\vspace{-4pt}
+{\large \textbf{\begin{tcolorbox}[center, width=20.7cm]\textsc{Technical Skills \& Relevant Courses}\end{tcolorbox}}}
+ \vspace{-18pt}
+\begin{center}
+\begin{tabular}{ m{10cm}|m{9.8cm}}
+    \textbf{Languages: } C, C++, Python, HTML, Javascript, Typescript, C\#, PHP & Probability \& Statistics | Linear Algebra \& Differential Equations\\
+    \textbf{Softwares: } MATLAB, AutoCAD, Figma& Psycho-linguistics | Industrial Internet of Things| Introduction to Machine Learning | Fundamentals of Computing | Introduction to Electronics | Introduction to Cognitive Science\\
+    \textbf{Frameworks: } AngularJS, Reactjs, ExpressJS, NodeJS, NestJS, NextJS, Django, Flask  \\
+    \textbf{Services: } Mongodb, PostgreSQL, Docker, AutoCAD, SQL, git, github, Unity, Apache, XAMPP, LAMP, AWS, nginx
+  \\
+     \textbf{Libraries: } numpy, networkX, pandas, selenium, beautifulSoup, driver, tensor flow, scikit, OpenCV  \\
+\end{tabular}
+\end{center}
+\vspace{-4pt}
+
+\vspace{-3pt}
+
+
+{\normalsize \textbf{\begin{tcolorbox}[center, width=20.7cm, colback=black!20]\textsc{Extra-Curricular Activities}\end{tcolorbox}}}
+\vspace{-10pt}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{ m{1.8cm} | m{16.5cm} |m{0.7cm}}
+\vspace{-2mm}
+
+
+
+\centering\multirow{1}{*}{\textbf{Managerial}} &
+\begin{tabitemize}
+    \item Organised \textbf{Mega Blood Donation} Drive in 3 venues across Kanpur City with \textbf{300+} volunteers
+    \item  Conducted a campaign “\textbf{No One Sleeps Hungry}” with Robin Hood Army to serve over \textbf{3300} people in Kanpur
+    \item Secured third position among 50+ teams in Pitch deck competition by ECell IIT Kanpur in 2021
+    \item Worked as secretary in film club, wrote 5+ scripts, directed 2 movies, arranged competitions for the community
+    \end{tabitemize} &\textcolor{black!80}{\small\textit{2023}} 
+    \newline
+\textcolor{black!80}{\small\textit{2022}}
+\newline
+\textcolor{black!80}{\small\textit{2021}}
+\newline
+\textcolor{black!80}{\small\textit{2021}}
+    \\
+    
+    
+% \hline
+% \centering\multirow{1}{*}{\textbf{Merit}} &
+% \begin{tabitemize}
+%     \item Awarded a Certificate of Merit by Bharat Vikas Parishad for overall excellent performance in X standard\end{tabitemize} &
+%   \textcolor{black!80}{\small\textit{2017}} \\
+\hline
+
+\centering\multirow{1}{*}{\textbf{Technical}} & 
+\begin{tabitemize}
+   \item Secured 2nd Position in district level web development competition in Harmony'18 
+   \item Led School Technical Festival as a Technical Head, created fest brochures, website, maintained sponsorship 
+   \end{tabitemize} &
+    \textcolor{black!80}{\small\textit{2018}} 
+    \newline
+\textcolor{black!80}{\small\textit{2018}} 
+\\
+  
+
+%--
+
+\end{tabularx}
+\end{center}
+
+\end{flushleft}
+
+
+\end{document}
